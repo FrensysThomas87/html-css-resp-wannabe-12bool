@@ -19,27 +19,22 @@
   text-align: center;
 }
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  margin-top: 80px;
-}
 
-#why .row img {
+
+#why .container img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
 }
 
 /* COMMON */
-.row::after {
+.container::after {
   content: '';
   display: table;
   clear: both;
 }
 
-.row.grey {
+.container.grey {
   background-color: #f9f9f9;
 }
 
@@ -54,5 +49,35 @@ img {
 
 /*media-query*/
 
+@media screen and (max-width: 767px){
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+  h1,h3,div,hr{
+    margin:25px 0;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+
+  h3{
+    font-size: 26px;
+  }
+
+  div{
+    padding: 0 20px;
+  }
+
+  #lezioni, #steps, #why, #text{
+    font-size: 20px;
+  }
+
+}
 
 /*end media-query*/
