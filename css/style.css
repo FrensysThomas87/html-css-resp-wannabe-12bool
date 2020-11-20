@@ -86,6 +86,38 @@ img {
 /*MD*/
 @media screen and (max-width: 991px){
 
+  #lezioni .container .left,
+  #lezioni .container .right,
+  #steps .container .left,
+  #steps .container .right{
+    padding: 0 20px;
+  }
+
+  div,h3,hr{
+    margin: 25px 0;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+
+  h1:first-child{
+    margin-top: 18px;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+
+  #lezioni, #steps, #why, #text{
+    font-size: 18px;
+  }
+
+  img{
+    height: 220px;
+  }
+
+
 }
 /*END MD*/
 
