@@ -1,0 +1,130 @@
+/*utility*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color:  #b0d3d9;
+  height: 100vh;
+
+}
+
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*=col-]{
+  float: left;
+  height: 50px;
+  background-color: #b0d3d9;
+}
+
+.col-1{
+  width: calc(100% / 32);
+}
+
+.col-2{
+  width: calc((100% / 32) * 2);
+}
+
+.col-3{
+  width: calc((100% / 32) * 3);
+}
+
+.col-4{
+  width: calc((100% / 32) * 4);
+}
+
+.col-5{
+  width: calc((100% / 32) * 5);
+}
+
+.col-6{
+  width: calc((100% / 32) * 6);
+}
+
+.col-7{
+  width: calc((100% / 32) * 7);
+}
+
+.col-8{
+  width: calc((100% / 32) * 8);
+}
+
+.col-9{
+  width: calc((100% / 32) * 9);
+}
+
+.col-10{
+  width: calc((100% / 24) * 10);
+}
+
+.col-11{
+  width: calc((100% / 24) * 11);
+}
+
+.col-12{
+  width: calc((100% / 24) * 12);
+}
+
+.red{
+  background-color: #f60000;
+}
+
+.blue{
+  background-color: #0051a0;
+}
+
+.pink{
+  background-color: #f6c085;
+}
+
+.yellow{
+  background-color: #ffff01;
+}
+
+.brown{
+  background-color: #603912;
+}
+
+.black{
+  background-color: #000;
+}
+/*utility*/
+
+.inner-container{
+
+  height: 95%;
+  background-color: #b0d3d9;
+  padding-top: 10px;
+  position: relative;
+  left: 20%;
+
+
+}
+
+.row{
+  
+  height: 50px;
+
+}
+
+.row:first-child,
+.row:nth-child(2),
+.row:nth-child(3),
+.row:nth-child(4),
+.row:nth-child(5),
+.row:nth-child(6),
+.row:nth-child(7){
+  margin-left: 95px;
+}
+
+.prato{
+  height: 50px;
+  background-color: green;
+}
