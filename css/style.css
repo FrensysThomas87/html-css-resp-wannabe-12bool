@@ -49,6 +49,7 @@ img {
 
 /*media-query*/
 
+/*XS*/
 @media screen and (max-width: 767px){
 
 *{
@@ -79,5 +80,13 @@ img {
   }
 
 }
+
+/*XS*/
+
+/*MD*/
+@media screen and (max-width: 991px){
+
+}
+/*END MD*/
 
 /*end media-query*/
